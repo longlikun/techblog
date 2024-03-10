@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = '我的blog'
+theme = 'hugo-theme-stack'
