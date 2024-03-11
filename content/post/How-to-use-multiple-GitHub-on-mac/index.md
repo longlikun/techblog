@@ -50,12 +50,9 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 
 生成密钥后运行此命令,启动一个 SSH 代理并将其环境变量添加到当前 shell 中。
 
-````shell
-
+```bash
     eval "$(ssh-agent -s)"      
-    
-
-````
+```
 
 ### 2. 修改配置文件  ~./ssh/config 
 
@@ -175,14 +172,3 @@ git remote set-url origin git@github.com-work:company/project.git
 ```
 现在您可以向 GitHub 远程存储库推送/拉取。
 
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
