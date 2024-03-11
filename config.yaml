@@ -13,6 +13,8 @@ DefaultContentLanguage: en
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: false
 
+
+
 languages:
     en:
         languageName: English
@@ -45,7 +47,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: /img/avatar.jpg # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2020
@@ -56,8 +58,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 🐒
+        subtitle: dddddlit.
         avatar:
             enabled: true
             local: true
@@ -215,6 +217,12 @@ menu:
           params:
               icon: brand-twitter
 
+        - identifier: tiktok
+          name: tiktok
+          url: https://titok.com
+          params:
+              icon: brand-twitter
+
 related:
     includeNewer: true
     threshold: 60
@@ -236,10 +244,17 @@ markup:
         ordered: true
         startLevel: 2
     highlight:
-        noClasses: false
+        anchorLineNos: false
         codeFences: true
-        guessSyntax: true
+        guessSyntax: false
+        hl_Lines: ""
+        hl_inline: false
+        lineAnchors: ""
         lineNoStart: 1
-        lineNos: true
+        lineNos: false
         lineNumbersInTable: true
+        noClasses: true
+        noHl: false
+        style: monokai
         tabWidth: 4
+    
