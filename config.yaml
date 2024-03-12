@@ -5,7 +5,6 @@ paginate: 6
 title: 晋火地
 copyright: Example Person
 
-
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
 DefaultContentLanguage: en
@@ -110,7 +109,7 @@ params:
 
     # Waline client configuration see: https://waline.js.org/en/reference/component.html
     waline:
-      serverURL: https://waline-37ac6kbep-longlikun6s-projects.vercel.app/
+      serverURL: https://waline-37ac6kbep-longlikun6s-projects.vercel.app
       lang: zh-cn
       pageview:
       emoji:
@@ -255,9 +254,9 @@ markup:
     anchorLineNos: false
     codeFences: true
     guessSyntax: false
-    hl_Lines: ""
+    hl_Lines: ''
     hl_inline: false
-    lineAnchors: ""
+    lineAnchors: ''
     lineNoStart: 1
     lineNos: false
     lineNumbersInTable: true
@@ -265,4 +264,3 @@ markup:
     noHl: false
     style: monokai
     tabWidth: 4
-
