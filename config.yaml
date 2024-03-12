@@ -75,7 +75,7 @@ params:
 
   comments:
     enabled: true
-    provider: disqus
+    provider: waline
 
     disqusjs:
       shortname:
@@ -110,8 +110,8 @@ params:
 
     # Waline client configuration see: https://waline.js.org/en/reference/component.html
     waline:
-      serverURL:
-      lang:
+      serverURL: https://waline-osolbzjyu-longlikun6s-projects.vercel.app/
+      lang: zh-cn
       pageview:
       emoji:
         - https://unpkg.com/@waline/emojis@1.0.1/weibo
