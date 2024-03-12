@@ -110,7 +110,7 @@ params:
 
     # Waline client configuration see: https://waline.js.org/en/reference/component.html
     waline:
-      serverURL: https://waline-osolbzjyu-longlikun6s-projects.vercel.app/
+      serverURL: https://waline-37ac6kbep-longlikun6s-projects.vercel.app/
       lang: zh-cn
       pageview:
       emoji:
