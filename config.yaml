@@ -4,6 +4,9 @@ theme: hugo-theme-stack
 paginate: 6
 title: 晋火地
 copyright: Example Person
+headers: for = "/*"
+  [headers.values]
+  Access-Control-Allow-Origin = "*"
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -109,19 +112,21 @@ params:
 
     # Waline client configuration see: https://waline.js.org/en/reference/component.html
     waline:
-      serverURL: https://waline-vert.eimoon.com
+      #   serverURL: https://waline-nk2vf8g54-longlikun6s-projects.vercel.app/
+      serverURL: https://waline-vert.eimoon.com/
       lang: zh-cn
+      path: window.location.pathname.replace(/\/$/,'')
       pageview:
-      login: disable
+      copyright: false
       emoji:
         - https://unpkg.com/@waline/emojis@1.0.1/weibo
       requiredMeta:
         - name
         - email
-        - url
+        # - url
       locale:
         admin: Admin
-        placeholder: "请输入"
+        placeholder: '请输入'
 
     twikoo:
       envId:
