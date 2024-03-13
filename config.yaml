@@ -109,9 +109,10 @@ params:
 
     # Waline client configuration see: https://waline.js.org/en/reference/component.html
     waline:
-      serverURL: https://waline-37ac6kbep-longlikun6s-projects.vercel.app
+      serverURL: https://waline-vert.eimoon.com
       lang: zh-cn
       pageview:
+      login: disable
       emoji:
         - https://unpkg.com/@waline/emojis@1.0.1/weibo
       requiredMeta:
@@ -120,7 +121,7 @@ params:
         - url
       locale:
         admin: Admin
-        placeholder:
+        placeholder: "请输入"
 
     twikoo:
       envId:
