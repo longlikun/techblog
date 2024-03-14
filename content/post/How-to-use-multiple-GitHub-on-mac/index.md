@@ -4,6 +4,7 @@ author: Hugo Authors
 title: 怎么在一台电脑上面设置工作和私人github 
 date: 2024-03-08
 description: 怎么在一台电脑上面设置工作和私人github账户
+draft: false
 math: true
 categories:
     - Test
