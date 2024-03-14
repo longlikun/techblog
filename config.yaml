@@ -115,7 +115,7 @@ params:
       #   serverURL: https://waline-nk2vf8g54-longlikun6s-projects.vercel.app/
       serverURL: https://waline-vert.eimoon.com/
       lang: zh-cn
-      path: window.location.pathname.replace(/\/$/,'')
+      # path: window.location.pathname.replace(/\/$/,'')
       pageview:
       copyright: false
       emoji:
