@@ -3,7 +3,7 @@ author: longlikun
 title : 怎么在wsl中使用hugo
 date : 2024-03-13T15:21:01+08:00
 description: 怎么在wsl中使用hugo
-draft: true
+draft: false
 math: true
 categories:
     - Test
