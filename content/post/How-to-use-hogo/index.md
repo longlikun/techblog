@@ -81,3 +81,12 @@ hugo v0.123.8-5fed9c591b694f314e5939548e11cc3dcb79a79c+extended
 ```
 
 下面可以安装hugo 的快速使用https://gohugo.io/getting-started/quick-start/，安装模板和写文章了
+
+参考 
+
+
+<a href="[超链接地址](https://gohugo.io/)" title="超链接title">hugo官网</a>
+
+
+<a href="[超链接地址](https://computingforgeeks.com/how-to-install-hugo-on-ubuntu-debian/)" title="怎么在ubuntu上安装hugo">怎么在ubuntu上安装hugo</a>
+
