@@ -7,11 +7,12 @@ date : 2024-03-13T15:21:01+08:00
 description: wsl 检测到localhost代理配置，但未镜像到wsl，nat模式下的wsl不支持localhost代理 怎么处理
 draft: false
 categories:
-    - 工具
-  
+    - tool
+
 
 tags :
    - WSL
+   - HUGO
 
 ---
 
