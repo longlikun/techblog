@@ -14,6 +14,7 @@
     margin-bottom: 5px;
     background-position: -1px 2px;
   }
+
   .highlight {
     max-width: 102% !important;
     background-color: var(--pre-background-color);
@@ -23,7 +24,7 @@
     margin-left: -7px !important;
     margin-right: -12px;
     box-shadow: var(--shadow-l1) !important;
-  
+
     &:hover {
       .copyCodeButton {
         opacity: 1;
@@ -498,5 +499,9 @@ a {
 .article-title-wrapper {
   .article-subtitle {
     font-size: 14px;
+  }
+
+  .article-title {
+    font-size: 2rem;
   }
 }
