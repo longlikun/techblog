@@ -8,6 +8,7 @@ description: wsl 检测到localhost代理配置，但未镜像到wsl，nat模式
 draft: false
 categories:
     - test
+    - blog
 
 
 tags :
