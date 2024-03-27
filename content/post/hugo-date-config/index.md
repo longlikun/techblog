@@ -5,7 +5,7 @@ author: longlikun
 title : hugo 设置日期格式
 date : 2024-03-27T22:44:31+08:00
 description: hugo 设置日期不准确
-draft: true
+draft: false
 categories:
     - 教程
     
