@@ -1,24 +1,32 @@
 ---
-author: longlikun
-title: hugo设置文章发表时间格式
-date: 2024-03-27T23:34:49+08:00
-description: hugo 设置文章发表时间格式
-draft: false
 
+
+author: longlikun
+title : hugo 设置日期格式
+date : 2024-03-27T22:44:31+08:00
+description: hugo 设置日期不准确
+draft: true
 categories:
     - 教程
-    - 随笔
+    
+tags :
+   - hugo
 
 ---
 
-## hugo 设置文章发表时间的格式
+### hugo 怎么设置日期格式
 
-修改config.yaml 文件 published字段
+修改published 格式, 
 
-```yaml
+正确格式:
+
+```shell
+
   dateFormat:
-    published: 2006年1月2日
+    published: 2006年1月2日 15:04 
     lastUpdated: Jan 02, 2006 15:04 MST
+
 ```
 
-**注意:具体时间`2006年1月2日`可能会影响转换结果**
+>**注意:`2006年1月2日` 这里的具体时间会影响时间格式,例如`2006年6月2日` 都会导致时间不准确。**
+
